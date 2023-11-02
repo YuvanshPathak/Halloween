@@ -1,0 +1,167 @@
+body, ul, li, h1, h2, a, footer{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    text-align: center;
+    background-color: rgb(55, 4, 85);
+    color:aliceblue;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    border: 5px solid whitesmoke;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 8px;
+    font-family: cursive;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    position: absolute;
+    left:2.5%;
+    top:30%;
+    color: white;
+}
+.banner h2 span{
+    font-size: 1.5em;
+}
+nav{
+    background-color: rgba(122, 102, 254, 0.737);
+    padding:8px;
+    position: sticky;
+    top: 110px;
+}
+nav ul{
+    white-space: nowrap;
+    margin:8px 40px;
+}
+nav li{
+    display:inline-block;
+    font-size: 20px;
+    color:white;
+    width: 25%;
+    max-width: 1300x;
+    margin: 0 auto;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0px auto;
+    max-width: 1300px;
+}
+nav li a.join{
+    color:rgb(255, 98, 0);
+}
+main{
+    max-width: 100%;
+    width: 1300px;
+    margin: 80 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color:rgb(255, 98, 0);
+    font-size: 3em;
+}
+article p{
+    color: black;
+    font-size: 20px;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 2%;
+}
+.images li img{
+    max-width: 100%;
+}
+.rsvp{
+    background-color: rgba(122, 102, 254, 0.737);
+    text-align: center;
+    padding: 60px 20px;
+    color:aliceblue;
+}
+.join h2{
+    font-size: 60px;
+}
+form input{
+    margin: 10px 0;
+    padding: 20px 70px;
+    max-width: 70%;
+    font-size: 20px;
+    border: 5px solid aliceblue;
+    border-radius: 40px;
+    margin-block-end: 0px;
+}
+footer{
+    background-color: rgba(99, 76, 247, 0.737);
+    margin: 10px 0px;
+    text-align: center;
+    color: aliceblue;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color:aliceblue
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+    position: relative;
+    top: -5px;
+}
+form input:focus{
+    outline: none;
+    border: 5px solid rgba(135, 206, 250, 0.868);
+}
+form input:valid{
+    border: 5px solid rgba(84, 255, 84, 0.985);
+}
+@media screen and (max-width: 800px){
+    header{
+        padding: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+    nav{
+        position: sticky;
+        top: 60px;
+        padding: 8px;
+    }
+}
+@media  screen and (max-width:680px) {
+    .images li{
+        width: 100%;
+        margin: 20px 0;
+        display: block;
+        text-align: center;
+    }
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+    
+}
